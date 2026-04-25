@@ -1,0 +1,50 @@
+Qual é a principal função da indentação na linguagem Python?,Definir blocos de código em vez de utilizar chaves.
+O que caracteriza a 'Tipagem Dinâmica' no Python?,"O interpretador infere o tipo da variável em tempo de execução, sem necessidade de declaração explícita."
+"O Python é uma linguagem _____, o que significa que o código é executado linha por linha sem compilação prévia.",interpretada
+Quais são os quatro tipos de dados 'Built-in' mencionados no texto?,"Listas, Dicionários, Tuplas e Conjuntos."
+Dê dois exemplos de estruturas de dados definidas pelo usuário em Python.,Listas encadeadas e Árvores.
+Qual é a unidade básica de armazenamento na computação?,O bit.
+Quantos valores distintos podem ser representados por 1 byte ($8$ bits)?,$2^8 = 256$ valores.
+Qual é o objetivo principal da disciplina de Estruturas de Dados?,"Ensinar como organizar, armazenar e manipular dados de forma eficiente em um programa."
+Como são organizados os elementos em uma estrutura de dados linear?,"De forma sequencial, onde cada elemento possui um antecessor e um sucessor."
+Cite três exemplos de estruturas de dados lineares.,"Arrays, Pilhas e Filas."
+O que diferencia as estruturas não lineares das lineares quanto à conexão entre elementos?,As não lineares permitem múltiplas conexões e não seguem uma sequência única na memória.
+Para qual tipo de modelagem as estruturas não lineares são ideais?,"Relações complexas, como hierarquias e redes."
+Qual estrutura de dados é recomendada para representar hierarquias?,Árvores.
+Qual estrutura de dados é recomendada para modelar redes e conexões?,Grafos.
+Estruturas de dados _____ são aquelas cujo tamanho é fixo e definido no momento da criação.,estáticas
+Qual é a principal desvantagem das estruturas de dados estáticas?,O tamanho não pode ser alterado durante a execução do programa.
+Por que o acesso aos elementos em estruturas estáticas é considerado rápido?,Porque possuem complexidade de tempo $O(1)$.
+"Estruturas de dados _____ utilizam alocação dinâmica de memória, permitindo crescer ou diminuir conforme necessário.",dinâmicas
+Qual é a principal desvantagem das Listas Ligadas em comparação ao acesso direto?,"O acesso aos elementos é sequencial e, portanto, mais lento."
+O que significa a sigla FIFO no contexto de Filas?,"First In, First Out (o primeiro a entrar é o primeiro a sair)."
+O que significa a sigla LIFO no contexto de Pilhas?,"Last In, First Out (o último a entrar é o primeiro a sair)."
+Dê um exemplo prático de aplicação de uma Pilha (Stack).,Um monte de pratos empilhados.
+Qual estrutura de dados permite buscas muito rápidas utilizando pares de chaves e valores?,Tabelas Hash.
+O que caracteriza uma Árvore Binária?,"Cada nó possui, no máximo, dois filhos (esquerdo e direito)."
+Qual é a utilidade principal das Árvores B-Trees?,"Otimização de armazenamento em disco, como em índices de bancos de dados."
+Defina o conceito de Array (Vetor/Matriz).,Estrutura linear e estática que armazena elementos do mesmo tipo em posições consecutivas da memória.
+"No contexto de Arrays, o que é um índice?",Um número inteiro que representa a posição de um elemento na lista.
+Qual é a complexidade de tempo para o acesso por índice em um Array?,$O(1)$.
+Qual é a complexidade de tempo para a busca de um elemento em um Array comum?,$O(n)$.
+Por que a inserção no meio de um Array tem complexidade $O(n)$?,Porque os elementos subsequentes precisam ser deslocados na memória para abrir espaço.
+Qual é a diferença entre um Vetor e uma Matriz?,"Um Vetor é unidimensional (uma linha), enquanto uma Matriz é multidimensional (linhas e colunas)."
+"Em Python, as listas (`list`) são tecnicamente classificadas como quais tipos de arrays?",Arrays dinâmicos.
+Qual método é utilizado para adicionar um elemento ao final de um array em Python?,O método `append()`.
+Qual é a função do método `pop()` em um array Python?,Remover e retornar o último elemento (ou um elemento de índice específico).
+"O que o método `insert(3, 99)` faz em um array?",Insere o valor 99 na posição de índice 3.
+"Por que arrays são considerados ideais para leitura frequente, mas não para manipulação intensa?","Pelo acesso rápido via índice $O(1)$, contrastando com a lentidão de inserções/remoções $O(n)$."
+Qual é o comportamento do interpretador Python em relação ao gerenciamento de memória em listas?,As listas crescem automaticamente conforme novos itens são adicionados.
+Como se acessa o último elemento de um array `arr` em Python usando índices negativos?,Utilizando `arr[-1]`.
+"O que indica o caractere 'i' ao criar um objeto com o módulo `array.array('i', [...])`?",Indica que o array armazenará números inteiros.
+Como se verifica se o número 40 existe dentro de um array chamado `arr` em Python?,Utilizando a expressão `if 40 in arr:`.
+Qual é a complexidade de remoção de um elemento em um Array?,$O(n)$.
+"Em Python, como se calcula o número total de elementos em uma lista ou array?",Utilizando a função `len()`.
+O que acontece com a complexidade de inserção no final de um array se houver necessidade de realocação de memória?,A complexidade pode passar de $O(1)$ para $O(n)$.
+Qual característica do array permite que o computador calcule diretamente o endereço de um elemento?,O uso de memória contígua.
+As árvores _____ são estruturadas para manter o equilíbrio e garantir que a busca seja sempre eficiente.,balanceadas
+Qual é a principal vantagem de usar estruturas de dados reutilizáveis?,Economia de tempo e esforço no desenvolvimento de software.
+Por que o conhecimento de estruturas de dados é vital para a escalabilidade de sistemas?,"Pois permite o processamento eficiente de grandes volumes de dados, como bilhões de registros."
+"No Python, qual estrutura é frequentemente usada para representar tabuleiros de jogos ou imagens?",Arrays multidimensionais (Matrizes).
+A homogeneidade em arrays significa que todos os elementos devem ser do _____.,mesmo tipo
+"Qual é o índice inicial da maioria das linguagens de programação, incluindo Python?",O índice 0.
